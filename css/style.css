@@ -116,7 +116,8 @@ p
 
 .header
 {
-    background-image: url("../images/background_cold2.jpg");
+/*    background-image: url("../images/background_cold2.jpg");*/
+    background-image: url("../images/background_bar.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -505,7 +506,8 @@ p
 
 .counter
 {
-    background-image: url("../images/counter-bg.jpg");
+/*    background-image: url("../images/counter-bg.jpg");*/
+    background-image: url("../images/background_videos.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
