@@ -67,6 +67,8 @@ p
     -o-transition: all 1s;
     -moz-transition: all 1s;
     -webkit-transition: all 1s;
+		height: 60px;
+		font-size: 20px;
 }
 
 .navbar-default .navbar-nav > li > a
