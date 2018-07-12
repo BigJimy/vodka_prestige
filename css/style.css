@@ -67,7 +67,6 @@ p
     -o-transition: all 1s;
     -moz-transition: all 1s;
     -webkit-transition: all 1s;
-
 }
 
 .navbar-default .navbar-nav > li > a
@@ -110,7 +109,6 @@ p
     background-color: transparent;
     color: #129CF3;
 }
-
 
 /* ========= HEADER ========= */
 
@@ -763,7 +761,7 @@ p
 
 #copyright
 {
-    width: 50%;
+    width: 100%;
 }
 
 #copyright p
@@ -791,6 +789,13 @@ p
     padding: 25px;
 }
 
+.scroll-top p
+{
+	color: white;
+	text-align: center;
+	font-size: 15px;
+}
+
 .scroll-top a i
 {
     color: #fff;
@@ -798,5 +803,46 @@ p
 }
 
 
+/* ========= AGE CONTROL ========= */
 
+#age_control
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	visibility: visible;
+	z-index: 1000;
+	position: fixed;
+	background: rgba(0,0,0,0.97);
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+}
+
+.form_control
+{
+	position: relative;
+	background-color: #129CF3;
+	padding: 20px;
+}
+
+.form_control p 
+{
+	color: whitesmoke;
+	text-align: center;
+	font-size: 20px;
+}
+
+.form_control h3
+{
+	text-align: center;
+	color: whitesmoke;
+	font-weight: bold;
+}
+.form_control img
+{
+	margin: auto;
+	margin-bottom: 20px;
+}
 

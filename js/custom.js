@@ -155,6 +155,17 @@ $(document).ready(function() {
     
 });
 
+/* Display age control form */
+$(document).ready(function() {
+    $('.majeur-btn').click(function(){
+        'use strict';
+			
+        $('#age_control').css({
+            'visibility': 'hidden',
+        });
+    });
+});
+
 /* Add Counter */
 $(document).ready(function() {
       $('.counter-num').counterUp({
