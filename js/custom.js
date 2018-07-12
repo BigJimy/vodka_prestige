@@ -13,6 +13,10 @@ $(document).ready(function(){
                 'margin-top': '-100px',
                 'opacity': '0'
             });
+					
+            $('.navbar-brand img').css({
+                
+            });
             
             $('.navbar-default').css({
                 'background-color': 'rgba(255, 255, 255, 0)'
@@ -32,13 +36,12 @@ $(document).ready(function(){
             
             $('.navbar-brand img').css({
                 'height': '35px',
-                'padding-top': 'Opx'
-                
+                'padding-top': 'Opx',
+								'display': 'block'
             });
             
             $('.navbar-nav > li > a').css({
                 'padding-top': '15px'
-                
             });
         }
         
